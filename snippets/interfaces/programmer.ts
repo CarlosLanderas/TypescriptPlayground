@@ -5,7 +5,7 @@ interface Programmer {
     name: string;
     surname: string;
     age: number;
-    speciality: ProgrammingRole
+    speciality?: ProgrammingRole
     programmingSkills?: ProgrammingSkills
 }
 

@@ -1,4 +1,4 @@
-export class RestService {
+export class GenericService {
 
     getAsync<T>(url:string) : Promise<T>{
        //simulate get data from server

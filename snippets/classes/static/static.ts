@@ -1,4 +1,4 @@
-import { ProgrammingSkills } from '../interfaces/programmingSkills';
+import { ProgrammingSkills } from '../../interfaces/programmingSkills';
 
 class Programmer implements ProgrammingSkills {
 
