@@ -14,3 +14,7 @@ let newProgrammers : Programmer[] = [
 programmersList.push(...newProgrammers);
 
 console.log(programmersList);
+
+let newOrderList :  Programmer[] = [];
+newOrderList.push(...newProgrammers, ...programmersList);
+console.log(newOrderList);
