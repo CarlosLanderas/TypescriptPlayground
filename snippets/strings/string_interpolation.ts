@@ -1,7 +1,7 @@
 
-import {User} from "../interfaces/user";
+import {Programmer} from "../interfaces/programmer";
 
-let user : User = {
+let user : Programmer = {
     age : 4,
     name: "Lucas",
     surname : "Perez"
