@@ -1,16 +1,16 @@
-import {ProgrammerService} from "../../services/programmerService";
-import {Programmer} from "../../interfaces/programmer";
+import {ProgrammerService} from '../../services/programmerService';
+import {Programmer} from '../../interfaces/programmer';
 
 
-//Array method destructuring
-function LogProgrammerList([programmer1, programmer2, ...restOfProgrammers] : Programmer[]){
+// Array method destructuring
+function LogProgrammerList([programmer1, programmer2, ...restOfProgrammers]: Programmer[]) {
     printProgrammerInfo(programmer1);
     printProgrammerInfo(programmer2);
     console.log(restOfProgrammers);
 }
 
-//Object method destructuring
-function printProgrammerInfo({name,age, surname: apellido}: Programmer){
+// Object method destructuring
+function printProgrammerInfo({name, age, surname: apellido}: Programmer) {
     console.log(` Programmer name is ${name} ${apellido} and he/she is ${age}`);
 }
 

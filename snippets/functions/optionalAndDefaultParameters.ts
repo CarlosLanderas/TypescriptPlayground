@@ -1,19 +1,19 @@
 
-//Optional parameters
+// Optional parameters
 
-let logUser = (name:string, surname?:string) => {
+let logUser = (name: string , surname?: string) => {
     console.log(`${name} ${surname}`);
-}
+};
 
-logUser("Pedro");
+logUser('Pedro');
 
 
-//Default parameters
+// Default parameters
 class UserManager {
-    logUser(user: string, pass: string, isPersistent : boolean = false){
-        //Log User
+    logUser(user: string, pass: string, isPersistent: boolean = false) {
+        // Log User
     }
 }
 
 let userManager = new UserManager();
-userManager.logUser("Andres", "fancyPassword");
+userManager.logUser('Andres', 'fancyPassword');

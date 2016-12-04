@@ -1,32 +1,32 @@
-import {Programmer} from "../../interfaces/programmer"
-import { ProgrammingSkills } from "../../interfaces/ProgrammingSkills";
+import {Programmer} from '../../interfaces/programmer';
+import { ProgrammingSkills } from '../../interfaces/ProgrammingSkills';
 
 
-let programmerSkills : ProgrammingSkills = {
-    mainProgramLanguage: "C#",
+let programmerSkills: ProgrammingSkills = {
+    mainProgramLanguage: 'C#',
     skills : [
-        "Javascript",
-        "Python"
+        'Javascript',
+        'Python'
     ]
-}
+};
 
-let programmer : Programmer = {
+let programmer: Programmer = {
     age : 30,
-    name : "Lucas",
-    surname: "Vazquez",
+    name : 'Lucas',
+    surname: 'Vazquez',
     programmingSkills: programmerSkills
-}
+};
 
-//Common
+// Common
 
 let age = programmer.age;
 let mainLanguage = programmer.programmingSkills.mainProgramLanguage;
 
-//Object destructuring
+// Object destructuring
 
-//Same property name
+// Same property name
 let {name, surname } = programmer;
-//Different property name
+// Different property name
 let {age: programmerAge} = programmer;
 
 let {mainProgramLanguage} = programmer.programmingSkills;

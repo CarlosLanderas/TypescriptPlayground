@@ -1,4 +1,4 @@
-import { log } from "./methodDecorators/logDecorator"
+import { log } from './methodDecorators/logDecorator';
 
 
 export class Calculator {
@@ -10,4 +10,4 @@ export class Calculator {
 }
 
 let calculator = new Calculator();
-calculator.sumNumbers(4,6);
+calculator.sumNumbers(4, 6);

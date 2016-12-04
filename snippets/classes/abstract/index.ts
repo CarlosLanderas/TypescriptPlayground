@@ -1,8 +1,8 @@
-import {JavaProgrammer} from "./abstract";
+import {JavaProgrammer} from './abstract';
 
-export class JProgrammer extends JavaProgrammer{    
-    codeSomeJava(){
-        console.log("Writing some Java!");
+export class JProgrammer extends JavaProgrammer {
+    codeSomeJava() {
+        console.log('Writing some Java!');
     }
 }
 

@@ -1,13 +1,12 @@
 interface SoftwareProgrammer {
-    name:string;
-    surname: string
-    doWork : (work: string) => void;
-    getDailyHours : () => number;
-    getSkills : () => string[];
+    name: string;
+    surname: string;
+    doWork: (work: string) => void;
+    getDailyHours: () => number;
+    getSkills: () => string[];
 }
 
-
-class FrontEndProgrammer implements SoftwareProgrammer{
+class FrontEndProgrammer implements SoftwareProgrammer {
     
     name: string;
     surname: string;
@@ -17,7 +16,7 @@ class FrontEndProgrammer implements SoftwareProgrammer{
     getDailyHours(): number {
         return 8;
     }
-    getSkills(){
+    getSkills() {
         return ['Javascript', 'css', 'html'];
     }
 }

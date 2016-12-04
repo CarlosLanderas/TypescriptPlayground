@@ -9,5 +9,5 @@ function overloadedFunction(arg: any): any {
         return arg.length;
 }
 
-console.log(overloadedFunction("Hello World"));
+console.log(overloadedFunction('Hello World'));
 console.log(overloadedFunction(456));
