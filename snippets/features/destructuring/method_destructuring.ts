@@ -4,13 +4,13 @@ import {Programmer} from "../../interfaces/programmer";
 
 //Array method destructuring
 function LogProgrammerList([programmer1, programmer2, ...restOfProgrammers] : Programmer[]){
-    PrintProgrammerInfo(programmer1);
-    PrintProgrammerInfo(programmer2);
+    printProgrammerInfo(programmer1);
+    printProgrammerInfo(programmer2);
     console.log(restOfProgrammers);
 }
 
 //Object method destructuring
-function PrintProgrammerInfo({name,age, surname: apellido}: Programmer){
+function printProgrammerInfo({name,age, surname: apellido}: Programmer){
     console.log(` Programmer name is ${name} ${apellido} and he/she is ${age}`);
 }
 
