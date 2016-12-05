@@ -7,8 +7,6 @@
         "sourceMap": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true
-    },
-    "filesGlob":[
-        "**/*.ts"
-    ]
+        
+    }   
 }
