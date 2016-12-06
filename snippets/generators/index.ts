@@ -1,17 +1,18 @@
-import {numberGenerator, saluteGenerator} from './generator';
-
+import {programmersGenerator, saluteGenerator} from './generator';
+import {ProgrammerService} from '../services/programmerService';
 // Generator iterator
-let numberGen = numberGenerator(6);
+let programmerGenerator = programmersGenerator(...new ProgrammerService().getAll());
 
-let value = numberGen.next();
+let value = programmerGenerator.next();
 console.log(value);
 
 while(!value.done){
-    value = numberGen.next();
+    value = programmerGenerator.next();
     console.log(value);
 }
 
 // Example of pause generator
+
 let saluteGen = saluteGenerator("Peter");
 saluteGen.next();
 saluteGen.next();

@@ -1,6 +1,8 @@
-export function* numberGenerator(max: number) {
-    for(let i = 0 ; i < max; i++) {
-        yield i;
+import {Programmer} from '../interfaces/programmer';
+
+export function* programmersGenerator(...programmers : Programmer[]) {
+    for(let i = 0 ; i < programmers.length; i++) {
+        yield programmers[i];
     }
 }
 
