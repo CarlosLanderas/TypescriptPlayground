@@ -1,12 +1,21 @@
 {
-    "compilerOptions": {
+    "compilerOptions": {        
         "module": "commonjs",
         "target": "es6",
+        "moduleResolution": "node",
         "outDir": "js",
         "noImplicitAny": false,
         "sourceMap": true,
         "emitDecoratorMetadata": true,
-        "experimentalDecorators": true        
-    }    
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "ProgrammerService": ["snippets/services/ProgrammerService"],
+            "applyMixins": ["snippets/mixins/applyMixins"]
+        }       
+    },    
+    "exclude": [
+        "node_modules"        
+    ]
     
 }
