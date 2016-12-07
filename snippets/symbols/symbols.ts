@@ -10,12 +10,14 @@ console.log(Object.getOwnPropertySymbols(Array.prototype));
 
 //local symbols 
 console.log(Symbol('foo') === Symbol('foo'));
+
+//global symbols
 console.log(Symbol.for('foo') === Symbol.for('foo'));
 
 let person = {
     name: "Luke",
     surname: "Skywalker",
-    [Symbol("fullName")] : () => { console.log('Hello from symbol')}
+    [Symbol("sayHi")] : () => { console.log('Hello from symbol')}
 }
 
 console.log(person);
