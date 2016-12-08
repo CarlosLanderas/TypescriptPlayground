@@ -1,4 +1,4 @@
-import Singleton from './singleton';
+import Singleton from './singletonClass';
 
 let singleton = Singleton.getInstance();
 
