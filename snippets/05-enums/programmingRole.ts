@@ -4,3 +4,8 @@ export enum ProgrammingRole {
     FullStack = 3
 }
 
+export enum Role {
+    RoleOne = 23,
+    RoleTwo,
+    RoleThree
+}
