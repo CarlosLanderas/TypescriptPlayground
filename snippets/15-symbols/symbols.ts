@@ -15,6 +15,7 @@ console.log(Symbol('foo') === Symbol('foo'));
 //global symbols
 console.log(Symbol.for('foo') === Symbol.for('foo'));
 
+//accessing symbols with getOwnPropertySymbols
 let person = {
     name: "Luke",
     surname: "Skywalker",
@@ -27,8 +28,19 @@ console.log(Object.getOwnPropertyNames(person));
 
 Object.getOwnPropertySymbols(person).forEach( s => {
        let symbol : any = person[s];
-       console.log(symbol());
+       symbol();
 });
+
+//or with reference
+let ageSymbol = Symbol('age');
+let person2 = {
+    name: 'Patricia',
+    [ageSymbol] :30
+};
+
+console.log(person2[ageSymbol]);
+
+
 
 
 
