@@ -38,7 +38,7 @@ let person2 = {
     [ageSymbol] :30
 };
 
-console.log(person2[ageSymbol]);
+console.log(person2[ageSymbol]); //prints 30
 
 
 
