@@ -25,7 +25,7 @@ let firstProgrammer = newProgrammers[0];
 firstProgrammer.age = 999;
 
 let modifiedProgrammers = [
-    newProgrammers.filter (pr => pr.name !== firstProgrammer.name), Object.assign({}, firstProgrammer)
+    ...newProgrammers.filter (pr => pr.name !== firstProgrammer.name), Object.assign({}, firstProgrammer)
 ];
 
 console.log(modifiedProgrammers);
