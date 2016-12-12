@@ -1,5 +1,5 @@
-import {Programmer} from '../interfaces/programmer';
-import {ProgrammingRole} from '../enums/programmingRole';
+import {Programmer} from '../03-interfaces/programmer';
+import {ProgrammingRole} from '../05-enums/programmingRole';
 
 export class ProgrammerService {
 

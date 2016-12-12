@@ -11,7 +11,7 @@
         "baseUrl": ".",
         "paths": {
             "ProgrammerService": ["snippets/services/ProgrammerService"],
-            "applyMixins": ["snippets/mixins/applyMixins"]
+            "applyMixins": ["snippets/14-mixins/applyMixins"]
         }       
     },    
     "exclude": [
