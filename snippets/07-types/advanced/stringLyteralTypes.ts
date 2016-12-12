@@ -8,3 +8,5 @@ let logFramework = (framework: frontEndFrameworks) => {
 
 logFramework("React");
 // error argument not assignable to parameter  --> logFramework("Backbone");
+
+

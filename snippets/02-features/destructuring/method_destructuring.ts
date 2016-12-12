@@ -2,7 +2,7 @@ import {ProgrammerService} from '../../services/programmerService';
 import {Programmer} from '../../03-interfaces/programmer';
 
 
-// Array method destructuring
+// Array method rest operator!
 function LogProgrammerList([programmer1, programmer2, ...restOfProgrammers]: Programmer[]) {
     printProgrammerInfo(programmer1);
     printProgrammerInfo(programmer2);

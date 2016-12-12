@@ -26,7 +26,9 @@ let mainLanguage = programmer.programmingSkills.mainProgramLanguage;
 
 // Same property name
 let {name, surname } = programmer;
+
 // Different property name
+
 let {age: programmerAge} = programmer;
 
 let {mainProgramLanguage} = programmer.programmingSkills;
