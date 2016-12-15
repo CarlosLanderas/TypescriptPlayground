@@ -8,7 +8,7 @@
     "dev": "npm run lint && npm run build",
     "start": "npm run lint && npm run execute",
     "execute": "node js/app.js",
-    "lint": "tslint --force *.ts"
+    "lint": "tslint --force snippets/**/*.ts"
   },
   "author": "Carlos Landeras",
   "license": "ISC",
