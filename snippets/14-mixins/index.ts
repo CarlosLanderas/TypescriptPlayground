@@ -14,18 +14,6 @@ class FrontProgrammer {
     }
 }
 
-class FullStackProgrammer implements FrontProgrammer, BackendProgrammer{
-     createDatabase: ()=> true;
-     createSpa: () => true;
-}
 
-// Apply mixings to FullStackProgrammer class
-applyMixins(FullStackProgrammer, [BackendProgrammer, FrontProgrammer]);
 
-//Export module to hide setup of the Class
-export {FullStackProgrammer};
-
-let fullStack = new FullStackProgrammer();
-fullStack.createDatabase();
-fullStack.createSpa();
 

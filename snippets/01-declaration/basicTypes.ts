@@ -18,21 +18,21 @@ let city = 'Madrid';
 let numberArray : number[] = [4,3,4,5,10];
 let stringArray : string[] = ['a', 'b', 'c', 'd'];
 
-//Tuple
+// Tuple
 
 let tuple1 : [string,number] = ['id', 5];
 let tuple2 : [number,number] = [10, 5];
 
-//Any
+// Any
 
 let unknownVar : any = 5;
 unknownVar = "I'm a string now!";
-unknownVar = true; //I am a boolean now :d
+unknownVar = true; // I am a boolean now :d
 
-//void
+// void
 
 function iDontReturnAnything(): void {
-    //
+    // 
 }
 
 // never
@@ -40,7 +40,7 @@ function fail(): never{
     while(true){}
 }
 
-//type assertions
+// type assertions
 
 let customName : any = "pepe";
 let nameLength = (customName as string).length;
