@@ -1,9 +1,9 @@
 
 //accessing symbols with getOwnPropertySymbols
 let person = {
-    name: "Luke",
-    surname: "Skywalker",
-    [Symbol("sayHi")] : () => { console.log('Hello from symbol')}
+    name: 'Luke',
+    surname: 'Skywalker',
+    [Symbol('sayHi')] : () => { console.log('Hello from symbol')}
 }
 
 console.log(Object.getOwnPropertyNames(person));

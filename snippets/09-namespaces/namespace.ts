@@ -10,5 +10,5 @@ export namespace Utilities {
 
 }
 
-Utilities.Logging.error("Error happened!");
-Utilities.Logging.log("Logging information");
+Utilities.Logging.error('Error happened!');
+Utilities.Logging.log('Logging information');

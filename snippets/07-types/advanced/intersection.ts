@@ -13,12 +13,13 @@ interface DesktopComputer {
 let computersList = new Array<LaptopComputer & DesktopComputer>();
 
 let computer : LaptopComputer & DesktopComputer = {
-    modelName: "Lenovo",
-    description : "Lenovo for enterprise",
+    modelName: 'Lenovo',
+    description : 'Lenovo for enterprise',
     price: 1200,
     displayInches: 15.4
 }
  
  computersList.push(computer);
 
+ 
  

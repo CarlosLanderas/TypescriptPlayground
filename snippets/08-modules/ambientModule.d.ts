@@ -1,4 +1,4 @@
-declare module "request"{
+declare module 'request' {
     export interface HttpRequest {
         method:string,
         headers: string[],

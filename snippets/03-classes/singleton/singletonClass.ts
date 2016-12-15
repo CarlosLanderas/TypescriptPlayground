@@ -8,7 +8,7 @@ class SingletonClass {
 
     static getInstance(): SingletonClass {
          if(!SingletonClass.instance) {
-            console.log("Creating instance of singletonClass");
+            console.log('Creating instance of singletonClass');
             SingletonClass.instance = new SingletonClass();
         }
         return SingletonClass.instance;

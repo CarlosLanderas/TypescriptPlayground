@@ -3,7 +3,7 @@ interface Array<T> {
     first();    
 }
 
-const arrayFirst = Symbol("fist");
+const arrayFirst = Symbol('fist');
 
 let firstFunction = function(){ return this[0];};
 

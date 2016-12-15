@@ -1,4 +1,4 @@
-import TotalSum from "./moduleExample";
+import TotalSum from './moduleExample';
 
 //Lazy loading
 export function loadTotalSum() {

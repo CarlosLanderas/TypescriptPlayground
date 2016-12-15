@@ -1,2 +1,2 @@
-//ambient variables example
+// ambient variables example
 

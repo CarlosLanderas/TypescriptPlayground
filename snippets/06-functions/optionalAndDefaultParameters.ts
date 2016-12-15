@@ -15,5 +15,5 @@ class UserManager {
     }
 }
 
-let userManager = new UserManager();
-userManager.logUser('Andres', 'fancyPassword');
+
+

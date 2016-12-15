@@ -1,4 +1,4 @@
-import {ProgrammerService} from "../../services/programmerService";
+import {ProgrammerService} from '../../services/programmerService';
 
 let programmersList = new ProgrammerService().getAll();
 

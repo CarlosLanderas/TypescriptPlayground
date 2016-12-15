@@ -13,6 +13,6 @@ while(iteration = programmerGenerator.next()){
 
 // Example of pause generator
 
-let saluteGen = saluteGenerator("Peter");
+let saluteGen = saluteGenerator('Peter');
 saluteGen.next();
 saluteGen.next();
